@@ -3,7 +3,7 @@ var config = {
     // leave commented to use Mapbox Standard Style
     style: 'mapbox://styles/dogatmn/cm4v9fem6000p01sf12f769y5/draft',
     accessToken: 'pk.eyJ1IjoiZG9nYXRtbiIsImEiOiJjbHlyMTJmcXgwMjQ3MmtzbTRsdm1pejdsIn0.vcEjL7lt8OoOPMP5o1PM6g',
-    showMarkers: true,
+    showMarkers: false,
     markerColor: '#ff70ab',
     //projection: 'equirectangular',
     //Read more about available projections here
@@ -56,11 +56,41 @@ var config = {
             alignment: 'centered',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/XxQbRBfp/moda-1.png',
+            image: 'hhttps://i.ibb.co/rGDJCsCs/moda1.png',
             description: '',
             location: {
                 center: [ 29.025905865234964,40.979837977540086],
                 zoom: 18,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+         {
+            id: '2',
+            alignment: 'full',
+            hidden: false,
+            title: '',
+            image: 'https://i.ibb.co/603bXhBT/moda2.png',
+            description: '',
+            location: {
+                center: [ 29.025905865234964,40.979837977540086],
+                zoom: 19,
                 pitch: 60,
                 bearing: 0
             },
