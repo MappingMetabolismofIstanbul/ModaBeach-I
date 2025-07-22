@@ -82,7 +82,7 @@ var config = {
             ]
         },
          {
-            id: '2',
+            id: '3',
             alignment: 'full',
             hidden: false,
             title: '',
