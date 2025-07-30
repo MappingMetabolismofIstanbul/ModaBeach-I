@@ -86,7 +86,7 @@ var config = {
             alignment: 'full',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/603bXhBT/moda2.png',
+            image: 'https://i.ibb.co/N6rfQmBg/moda1.png',
             description: '',
             location: {
                 center: [ 29.025905865234964,40.979837977540086],
