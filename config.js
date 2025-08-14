@@ -1,3 +1,4 @@
+
 var config = {
     // style: 'mapbox://styles/mapbox/streets-v12',
     // leave commented to use Mapbox Standard Style
@@ -19,7 +20,7 @@ var config = {
     title: 'Kentsel Boşluğun Üretimi: Moda Plajı / Production of Urban Void: Moda Beach',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
         {
             id: '1',
@@ -30,7 +31,7 @@ var config = {
             description: '',
             location: {
                 center: [ 29.025905865234964,40.979837977540086],
-                zoom: 15,
+                zoom: 12,
                 pitch: 60,
                 bearing: 0
             },
@@ -60,8 +61,8 @@ var config = {
             description: '',
             location: {
                 center: [ 29.025905865234964,40.979837977540086],
-                zoom: 18,
-                pitch: 60,
+                zoom: 17,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -89,13 +90,13 @@ var config = {
             image: 'https://i.ibb.co/N6rfQmBg/moda1.png',
             description: '',
             location: {
-                center: [ 29.025905865234964,40.979837977540086],
-                zoom: 19,
-                pitch: 60,
+                center: [29.027035487797665,40.98017943176745],
+                zoom: 18,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
